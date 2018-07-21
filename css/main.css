@@ -111,8 +111,9 @@ input {
 
 .notifications {
 	position: absolute;
-	right: 240px;
-	top: 20px;
+    right: 24rem;
+    top: 7rem;
+
 }
 
 .notifications li:hover {
@@ -468,4 +469,10 @@ footer h4 {
 
 #menu-close img {
 	width: 10px
+}
+@media (max-width: 768px ){
+	.ya div{
+margin-bottom: 10px !important;
+	}
+
 }
